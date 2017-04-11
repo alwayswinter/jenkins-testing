@@ -6,9 +6,9 @@ pipeline {
     
   }
   stages {
-    stage('') {
+    stage('error') {
       steps {
-        echo 'testing'
+        echo '"test"'
       }
     }
   }
