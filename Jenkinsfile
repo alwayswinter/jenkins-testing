@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    docker {
-      image 'centos6.9'
-    }
-    
-  }
+  agent any
   stages {
     stage('error') {
       steps {
